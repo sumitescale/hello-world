@@ -1,0 +1,13 @@
+pwd
+ls
+ls - l
+ls - a
+ls - las > file.txt        cpoies content of ls in file.txt
+echo 
+su username
+cd, cd .. 
+cat    - display content and merge all in one
+cat -b, -n    - add no. of lines
+cat > file.txt,  cat >> file.txt     - create file and enter contents,  append content to existing file
+grep -i, -n, -c, -v    for search 
+sort -r (reverse), -n (numerical), -i (case insensitive)
