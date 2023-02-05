@@ -11,3 +11,9 @@ cat -b, -n    - add no. of lines
 cat > file.txt,  cat >> file.txt     - create file and enter contents,  append content to existing file
 grep -i, -n, -c, -v    for search 
 sort -r (reverse), -n (numerical), -i (case insensitive)
+grep (word to search) file name | sort
+cp -i (interactive), -n (not overwrite), -u (updates destination file only), -R (copy hidden file)
+cp /path/file .   - (. copy to current directory)
+mv -i, -u, -v
+mkdir -p (create parent and sub dir),  -p file1/{f1,f2,f3}
+rmdir -p (remove parent and sub-dir), -r (remove non-empty dir), -rp (non empty and parent nd sub dir)
