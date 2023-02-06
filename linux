@@ -17,3 +17,13 @@ cp /path/file .   - (. copy to current directory)
 mv -i, -u, -v
 mkdir -p (create parent and sub dir),  -p file1/{f1,f2,f3}
 rmdir -p (remove parent and sub-dir), -r (remove non-empty dir), -rp (non empty and parent nd sub dir)
+user permission -> ls -l
+user permission: d/- rwx rwx r-x   -> d/-/c/b -> dir/file/charac file/binary file,  wrx -> user permission, wrx -> group permission, w-x  -> other permission
+                 
+d rwx rwx r-x          1      kjakh kjkj 171717    aug 2 2023
+     |                 |        |     |     |            |
+file permission symbolic link  owner grp  file size  time stamp
+DEnotion: u- user, g- group, o- other, a- all
+chmod - change access permission of files and directories
+chown - change owner of file and dirrectory
+chgrp - change group ownership of file and directories
